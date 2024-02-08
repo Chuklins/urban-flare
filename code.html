@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qr-code</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: outfit;
+        font-weight: 700;
+        /* font-size: 18px; */
+        line-height: 1.2;
+      }
+
+      .container {
+        width: 700px;
+        border-radius: 12px;
+      }
+
+      .qr{
+        border-radius: 20px;
+        /* display: block; */
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        margin: 200px;
+        padding: 15px;
+        
+      }
+
+      img{
+        width: 100%;
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+
+      .code-box{ 
+        text-align: center;
+        justify-content: center;
+      } 
+
+      .code-text{
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .code-visit{
+        color: hsl(220, 15%, 55%);
+        font-weight: 400px;
+        margin-bottom: 10px;
+      }
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <section  class="container">
+        
+      <div class="qr">
+        <img src="./image-qr-code.png" alt="qr-code" />
+
+        <span class="code-box">
+          <p class="code-text">
+            Improve your front-end skills by building projects
+          </p>
+
+          <p class="code-visit">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </span>
+
+      </div>
+
+    </section>
+
+  </body>
+</html>
